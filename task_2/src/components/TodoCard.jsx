@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 
 export const TodoCard = () => {
 
-    const [tasks,setTasks] = useState([]);
+    const [tasks,setTasks] = useState(["hello, hi"]);
     
     return (
-        <TodoDisplay />
+        <TodoDisplay props={tasks}/>
   )
 }
