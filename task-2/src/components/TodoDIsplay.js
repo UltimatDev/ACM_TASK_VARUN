@@ -8,7 +8,7 @@ export const TodoDisplay = ({props}) => {
     return(
       <div>
       {
-      props.map((task,index),()=>{
+      props.map((task,index)=>{
       <TodoTask props={task}/>
     }
       )}
